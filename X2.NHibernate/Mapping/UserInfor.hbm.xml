@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="X2.Domain"
+                   namespace="X2.Domain"
+                   auto-import ="false">
+
+  <class name="X2.Domain.Entity.UserInfor" table="UserInfor" lazy="true">
+    <id name="ID" column ="UserInforID">
+      <generator class="guid.comb" />
+    </id>
+    
+    <property name="UserID" type="String"/>
+    <property name="Pin" type="String"/>
+
+    <bag name="Sessions" table="Session" cascade="all-delete-orphan" inverse="true">
+      <key column="UserInforID" />
+      <one-to-many class="X2.Domain.Entity.Session, X2.Domain" />
+    </bag>
+  </class>
+
+</hibernate-mapping>

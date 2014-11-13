@@ -1,0 +1,135 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X2.RESTService", "X2.RESTService\X2.RESTService.csproj", "{82800AFC-9BC4-43D6-9FFF-D44078148C31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X2.Bootstrapper", "X2.Bootstrapper\X2.Bootstrapper.csproj", "{818328A9-F02C-48AA-AB1A-35865573C03A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThirdPartyLib", "ThirdPartyLib", "{FFBC08AF-19BE-4E3C-B8C8-270AB0361E92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReferenceBin", "ReferenceBin", "{1C834225-65C0-4D66-A1CA-A27EAACE99B8}"
+	ProjectSection(SolutionItems) = preProject
+		ThirdPartyLib\ReferenceBin\CommonServiceLocator.SimpleInjectorAdapter.dll = ThirdPartyLib\ReferenceBin\CommonServiceLocator.SimpleInjectorAdapter.dll
+		ThirdPartyLib\ReferenceBin\CommonServiceLocator.SimpleInjectorAdapter.xml = ThirdPartyLib\ReferenceBin\CommonServiceLocator.SimpleInjectorAdapter.xml
+		ThirdPartyLib\ReferenceBin\Iesi.Collections.dll = ThirdPartyLib\ReferenceBin\Iesi.Collections.dll
+		ThirdPartyLib\ReferenceBin\Iesi.Collections.xml = ThirdPartyLib\ReferenceBin\Iesi.Collections.xml
+		ThirdPartyLib\ReferenceBin\LinFu.DynamicProxy.dll = ThirdPartyLib\ReferenceBin\LinFu.DynamicProxy.dll
+		ThirdPartyLib\ReferenceBin\Microsoft.Practices.ServiceLocation.dll = ThirdPartyLib\ReferenceBin\Microsoft.Practices.ServiceLocation.dll
+		ThirdPartyLib\ReferenceBin\Microsoft.Practices.ServiceLocation.xml = ThirdPartyLib\ReferenceBin\Microsoft.Practices.ServiceLocation.xml
+		ThirdPartyLib\ReferenceBin\Newtonsoft.Json.dll = ThirdPartyLib\ReferenceBin\Newtonsoft.Json.dll
+		ThirdPartyLib\ReferenceBin\Newtonsoft.Json.pdb = ThirdPartyLib\ReferenceBin\Newtonsoft.Json.pdb
+		ThirdPartyLib\ReferenceBin\Newtonsoft.Json.xml = ThirdPartyLib\ReferenceBin\Newtonsoft.Json.xml
+		ThirdPartyLib\ReferenceBin\nhibernate-configuration.xsd = ThirdPartyLib\ReferenceBin\nhibernate-configuration.xsd
+		ThirdPartyLib\ReferenceBin\nhibernate-mapping.xsd = ThirdPartyLib\ReferenceBin\nhibernate-mapping.xsd
+		ThirdPartyLib\ReferenceBin\NHibernate.dll = ThirdPartyLib\ReferenceBin\NHibernate.dll
+		ThirdPartyLib\ReferenceBin\NHibernate.pdb = ThirdPartyLib\ReferenceBin\NHibernate.pdb
+		ThirdPartyLib\ReferenceBin\NHibernate.xml = ThirdPartyLib\ReferenceBin\NHibernate.xml
+		ThirdPartyLib\ReferenceBin\Ninject.dll = ThirdPartyLib\ReferenceBin\Ninject.dll
+		ThirdPartyLib\ReferenceBin\Ninject.Extensions.Conventions.dll = ThirdPartyLib\ReferenceBin\Ninject.Extensions.Conventions.dll
+		ThirdPartyLib\ReferenceBin\Ninject.Web.Common.dll = ThirdPartyLib\ReferenceBin\Ninject.Web.Common.dll
+		ThirdPartyLib\ReferenceBin\Ninject.Web.Mvc.dll = ThirdPartyLib\ReferenceBin\Ninject.Web.Mvc.dll
+		ThirdPartyLib\ReferenceBin\NSubstitute.dll = ThirdPartyLib\ReferenceBin\NSubstitute.dll
+		ThirdPartyLib\ReferenceBin\nunit.exe.config = ThirdPartyLib\ReferenceBin\nunit.exe.config
+		ThirdPartyLib\ReferenceBin\nunit.framework.dll = ThirdPartyLib\ReferenceBin\nunit.framework.dll
+		ThirdPartyLib\ReferenceBin\SimpleInjector.Diagnostics.dll = ThirdPartyLib\ReferenceBin\SimpleInjector.Diagnostics.dll
+		ThirdPartyLib\ReferenceBin\SimpleInjector.Diagnostics.xml = ThirdPartyLib\ReferenceBin\SimpleInjector.Diagnostics.xml
+		ThirdPartyLib\ReferenceBin\SimpleInjector.dll = ThirdPartyLib\ReferenceBin\SimpleInjector.dll
+		ThirdPartyLib\ReferenceBin\SimpleInjector.Extensions.ExecutionContextScoping.dll = ThirdPartyLib\ReferenceBin\SimpleInjector.Extensions.ExecutionContextScoping.dll
+		ThirdPartyLib\ReferenceBin\SimpleInjector.Extensions.ExecutionContextScoping.xml = ThirdPartyLib\ReferenceBin\SimpleInjector.Extensions.ExecutionContextScoping.xml
+		ThirdPartyLib\ReferenceBin\SimpleInjector.Extensions.LifetimeScoping.dll = ThirdPartyLib\ReferenceBin\SimpleInjector.Extensions.LifetimeScoping.dll
+		ThirdPartyLib\ReferenceBin\SimpleInjector.Extensions.LifetimeScoping.xml = ThirdPartyLib\ReferenceBin\SimpleInjector.Extensions.LifetimeScoping.xml
+		ThirdPartyLib\ReferenceBin\SimpleInjector.Integration.Wcf.dll = ThirdPartyLib\ReferenceBin\SimpleInjector.Integration.Wcf.dll
+		ThirdPartyLib\ReferenceBin\SimpleInjector.Integration.Wcf.xml = ThirdPartyLib\ReferenceBin\SimpleInjector.Integration.Wcf.xml
+		ThirdPartyLib\ReferenceBin\SimpleInjector.Integration.Web.dll = ThirdPartyLib\ReferenceBin\SimpleInjector.Integration.Web.dll
+		ThirdPartyLib\ReferenceBin\SimpleInjector.Integration.Web.Mvc.dll = ThirdPartyLib\ReferenceBin\SimpleInjector.Integration.Web.Mvc.dll
+		ThirdPartyLib\ReferenceBin\SimpleInjector.Integration.Web.Mvc.xml = ThirdPartyLib\ReferenceBin\SimpleInjector.Integration.Web.Mvc.xml
+		ThirdPartyLib\ReferenceBin\SimpleInjector.Integration.Web.xml = ThirdPartyLib\ReferenceBin\SimpleInjector.Integration.Web.xml
+		ThirdPartyLib\ReferenceBin\SimpleInjector.Integration.WebApi.dll = ThirdPartyLib\ReferenceBin\SimpleInjector.Integration.WebApi.dll
+		ThirdPartyLib\ReferenceBin\SimpleInjector.Integration.WebApi.xml = ThirdPartyLib\ReferenceBin\SimpleInjector.Integration.WebApi.xml
+		ThirdPartyLib\ReferenceBin\SimpleInjector.Packaging.dll = ThirdPartyLib\ReferenceBin\SimpleInjector.Packaging.dll
+		ThirdPartyLib\ReferenceBin\SimpleInjector.Packaging.xml = ThirdPartyLib\ReferenceBin\SimpleInjector.Packaging.xml
+		ThirdPartyLib\ReferenceBin\SimpleInjector.xml = ThirdPartyLib\ReferenceBin\SimpleInjector.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X2.Services.Runtime", "X2.Services.Runtime\X2.Services.Runtime.csproj", "{50E58748-0580-464D-8698-3E564CC35890}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X2.Services.Runtime.Implementation", "X2.Services.Runtime.Implementation\X2.Services.Runtime.Implementation.csproj", "{D5F07EF0-7CB7-4871-BB00-7D572C1323DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{53542C25-0076-4014-8320-E7E1A470F3D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X2.Service.Runtime.Implementation.Test", "X2.Test.Service.Runtime.Implementation\X2.Service.Runtime.Implementation.Test.csproj", "{477482E4-DF0F-448A-8963-058ADBFB95D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X2.BootStrapper.Test", "X2.Test.BootStrapper\X2.BootStrapper.Test.csproj", "{20078654-E0EE-416B-AE33-99EABF079036}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X2.Web", "X2.Web\X2.Web.csproj", "{3E88CECA-C2EA-48BE-98F4-A758D7E694A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{DC2EAFF5-91E9-484D-BABF-069E1E835454}"
+	ProjectSection(SolutionItems) = preProject
+		DB\CreateDB.sql = DB\CreateDB.sql
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X2.NHibernate", "X2.NHibernate\X2.NHibernate.csproj", "{02C15EE0-2CF7-4A0D-9527-C0831A61CF4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X2.Domain", "X2.Domain\X2.Domain.csproj", "{F1E12582-E243-4941-AE86-A93F69E2A40A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X2.NHibernate.Test", "X2.NHibernate.Test\X2.NHibernate.Test.csproj", "{9AA3E06E-EA62-4D40-8B79-00077349082A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82800AFC-9BC4-43D6-9FFF-D44078148C31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82800AFC-9BC4-43D6-9FFF-D44078148C31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82800AFC-9BC4-43D6-9FFF-D44078148C31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82800AFC-9BC4-43D6-9FFF-D44078148C31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{818328A9-F02C-48AA-AB1A-35865573C03A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{818328A9-F02C-48AA-AB1A-35865573C03A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{818328A9-F02C-48AA-AB1A-35865573C03A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{818328A9-F02C-48AA-AB1A-35865573C03A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50E58748-0580-464D-8698-3E564CC35890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50E58748-0580-464D-8698-3E564CC35890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50E58748-0580-464D-8698-3E564CC35890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50E58748-0580-464D-8698-3E564CC35890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5F07EF0-7CB7-4871-BB00-7D572C1323DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5F07EF0-7CB7-4871-BB00-7D572C1323DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5F07EF0-7CB7-4871-BB00-7D572C1323DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5F07EF0-7CB7-4871-BB00-7D572C1323DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{477482E4-DF0F-448A-8963-058ADBFB95D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{477482E4-DF0F-448A-8963-058ADBFB95D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{477482E4-DF0F-448A-8963-058ADBFB95D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{477482E4-DF0F-448A-8963-058ADBFB95D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20078654-E0EE-416B-AE33-99EABF079036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20078654-E0EE-416B-AE33-99EABF079036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20078654-E0EE-416B-AE33-99EABF079036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20078654-E0EE-416B-AE33-99EABF079036}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E88CECA-C2EA-48BE-98F4-A758D7E694A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E88CECA-C2EA-48BE-98F4-A758D7E694A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E88CECA-C2EA-48BE-98F4-A758D7E694A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E88CECA-C2EA-48BE-98F4-A758D7E694A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02C15EE0-2CF7-4A0D-9527-C0831A61CF4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02C15EE0-2CF7-4A0D-9527-C0831A61CF4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02C15EE0-2CF7-4A0D-9527-C0831A61CF4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02C15EE0-2CF7-4A0D-9527-C0831A61CF4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1E12582-E243-4941-AE86-A93F69E2A40A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1E12582-E243-4941-AE86-A93F69E2A40A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1E12582-E243-4941-AE86-A93F69E2A40A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1E12582-E243-4941-AE86-A93F69E2A40A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AA3E06E-EA62-4D40-8B79-00077349082A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AA3E06E-EA62-4D40-8B79-00077349082A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AA3E06E-EA62-4D40-8B79-00077349082A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AA3E06E-EA62-4D40-8B79-00077349082A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1C834225-65C0-4D66-A1CA-A27EAACE99B8} = {FFBC08AF-19BE-4E3C-B8C8-270AB0361E92}
+		{477482E4-DF0F-448A-8963-058ADBFB95D7} = {53542C25-0076-4014-8320-E7E1A470F3D3}
+		{20078654-E0EE-416B-AE33-99EABF079036} = {53542C25-0076-4014-8320-E7E1A470F3D3}
+		{9AA3E06E-EA62-4D40-8B79-00077349082A} = {53542C25-0076-4014-8320-E7E1A470F3D3}
+	EndGlobalSection
+EndGlobal

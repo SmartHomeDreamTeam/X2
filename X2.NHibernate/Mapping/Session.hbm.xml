@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="X2.Domain"
+                   namespace="X2.Domain"
+                   auto-import ="false">
+  <class name="X2.Domain.Entity.Session" table="Session" lazy="true">
+    <id name="ID" column ="SessionID">
+      <generator class="guid.comb" />
+    </id>
+
+<!--    <many-to-one-->
+<!--       name="UserInfor"-->
+<!--       column="UserInforID"-->
+<!--       class="X2.Domain.Entity.UserInfor, X2.Domain" unique="true"-->
+<!--    />-->
+
+    <property name="UserInforID" type="Guid"/>
+    <property name="SecretKey" type="String"/>
+    <property name="CreatedDateTime" type="DateTime"/>
+    <property name="CreatedBy" type="String"/>
+  </class>
+
+</hibernate-mapping>
